@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>layout basic method web</title>
+    <style type="text/css" media="screen">
+        
+		html {
+			height:100%; 
+			background:#fff; 
+		}
+
+		body {
+			min-height:100%; overflow:hidden; 
+		}
+		
+		#container {
+			width: 100%;
+			height: 100%;
+			background-color: #fff;
+			overflow: hidden;
+		}
+
+        iframe
+        {
+        border-style: none;
+        width: 100%; 
+        height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="top">
+            <h1>Header</h1>
+        </div>
+        <div id="content">
+            <h2>Layer8 iFrame</h2>
+            <IFRAME name='iframe1' id="iframe1" src="https://s3-eu-west-1.amazonaws.com/orbach.eyal/push/testn.html"
+			style="display: block !important; opacity: 1 !important; z-index: 2147483646 !important; position: absolute !important; bottom: 0px !important; right: 0px !important; top: 0px !important; left: 0px !important; padding: 0px !important; margin: 0px !important; border: none !important; min-width: 0px !important; min-height: 0px !important; max-width: none !important; transition: opacity 0s ease !important; pointer-events: all !important; background: transparent !important;" scrolling="no" scroll="no" allowtransparency="true"></IFRAME>
+        </div>
+    </div>
+</body>
+</html>
